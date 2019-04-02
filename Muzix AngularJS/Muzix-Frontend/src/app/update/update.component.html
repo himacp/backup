@@ -1,0 +1,7 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+      <!-- <textarea matInputype="text" placeholder="Leave a comment" [(ngModel)] = "value"></textarea> -->
+      <textarea matInput placeholder="Leave a comment" name="comment" [(ngModel)]="comment"></textarea>
+  </mat-form-field>
+  <button mat-raised-button color="warn" (click) = updateComment(comment)>UPDATE</button>
+</form>

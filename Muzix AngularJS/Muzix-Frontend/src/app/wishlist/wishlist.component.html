@@ -1,0 +1,12 @@
+<!-- <p>
+  wishlist works!
+</p>
+<button (click) = "getAll()">Submit</button>
+<ul *ngIf = "allWishListTracks">
+ <ol *ngFor = "let search of allWishListTracks">
+   {{search.TrackName}}--{{search.TrackArtist}}
+ </ol>-->
+ <div> 
+  <button (click) = "getAll()">CLICK</button>
+  <app-wishcard [url] = allTracks ></app-wishcard>
+</div>
